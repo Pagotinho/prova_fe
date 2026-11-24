@@ -1,0 +1,3 @@
+export function Header() {
+  return <header className="bg-ink text-white"><div className="mx-auto flex h-[62px] max-w-[1040px] items-center justify-between gap-2 px-4 sm:px-0 sm:mx-8 lg:mx-auto lg:px-0"><div className="flex items-center gap-3 font-bold"><span aria-hidden="true" className="relative flex h-5 w-5 rotate-[-8deg] items-center justify-center rounded-sm bg-gold"><span className="ml-2 flex h-5 w-4 rotate-[8deg] items-center justify-center rounded-sm bg-white text-[10px] text-ink">◉</span></span><span>Arena <span className="text-gold">TCG</span></span></div><span className="rounded-full border border-slate-600 px-3 py-1 text-[11px]">Catálogo do balcão</span></div></header>;
+}
